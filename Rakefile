@@ -31,3 +31,8 @@ namespace :db do
     Student.all
   end
 end
+
+desc "drop into a Pry console"
+task :console => :environment do
+  binding.Pry
+end

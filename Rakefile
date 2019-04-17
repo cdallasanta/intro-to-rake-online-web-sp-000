@@ -28,6 +28,6 @@ namespace :db do
 
   desc "testing my own rake task"
   task :recall => :environment do
-    Student.find(1)
+    Student.all
   end
 end

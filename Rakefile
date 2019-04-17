@@ -7,6 +7,6 @@ namespace :greeting do
 
   desc "Puts 'Hola' from the terminal"
   task :hola do
-    puts "Hola del terminal"
+    puts "Hola de Rake"
   end
 end

@@ -12,8 +12,8 @@ namespace :greeting do
 end
 
 namespace :db do
-  desc "Migrate the database"
-  task :migrate do
-    
+  desc "Migrate changes to the database"
+  task :migrate => :environment do
+
   end
 end

@@ -1,5 +1,5 @@
 rake :environment do
-  require_relative './config/environment.'
+  require_relative './config/environment.rb'
 end
 
 namespace :greeting do

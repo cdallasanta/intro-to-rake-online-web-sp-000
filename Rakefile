@@ -20,4 +20,9 @@ namespace :db do
   task :migrate => :environment do
     Student.create_table
   end
+
+  desc "Seed the db with some dummy data"
+  task :seed do
+    
+  end
 end

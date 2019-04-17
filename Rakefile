@@ -1,4 +1,4 @@
-rake :environment do
+task :environment do
   require_relative './config/environment.rb'
 end
 

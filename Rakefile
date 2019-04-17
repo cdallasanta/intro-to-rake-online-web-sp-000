@@ -34,5 +34,5 @@ end
 
 desc "drop into a Pry console"
 task :console => :environment do
-  binding.pry
+  Pry.start
 end

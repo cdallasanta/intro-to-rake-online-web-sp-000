@@ -27,7 +27,7 @@ namespace :db do
   end
 
   desc "testing my own rake task"
-  task :recall do
+  task :recall => :environment do
     Student.find(1)
   end
 end

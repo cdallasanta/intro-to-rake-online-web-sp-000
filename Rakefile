@@ -1,3 +1,4 @@
+desc 'requires the environment file for the db tasks'
 task :environment do
   require_relative './config/environment.rb'
 end

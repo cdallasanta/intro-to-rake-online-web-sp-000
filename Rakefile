@@ -25,4 +25,9 @@ namespace :db do
   task :seed do
     require_relative './db/seeds.rb'
   end
+
+  desc "testing my own rake task"
+  task :recall do
+    Student.find(1)
+  end
 end

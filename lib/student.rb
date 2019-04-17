@@ -48,7 +48,7 @@ class Student
 
   def self.all
     sql = "SELECT * FROM students"
-    puts DB[:conn].execute(sql)
+    DB[:conn].execute(sql)
   end
 
 end
